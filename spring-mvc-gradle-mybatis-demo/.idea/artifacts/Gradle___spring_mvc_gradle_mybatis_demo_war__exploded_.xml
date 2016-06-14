@@ -1,0 +1,74 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : spring-mvc-gradle-mybatis-demo.war (exploded)">
+    <output-path>$PROJECT_DIR$/out/artifacts/spring-mvc-gradle-mybatis-demo/exploded/spring-mvc-gradle-mybatis-demo.war</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="spring-mvc-gradle-mybatis-demo_main/web/Web Gradle : spring-mvc-gradle-mybatis-demo.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring-mvc-gradle-mybatis-demo_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.1.3" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.1.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Gradle: junit:junit:4.12" />
+          <element id="library" level="project" name="Gradle: com.h2database:h2:1.3.172" />
+          <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.0.1" />
+          <element id="library" level="project" name="Gradle: org.glassfish:javax.servlet:3.0" />
+          <element id="library" level="project" name="Gradle: org.mybatis:mybatis:3.2.7" />
+          <element id="library" level="project" name="Gradle: org.mybatis:mybatis-spring:1.2.2" />
+          <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:5.1.25" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context-support:4.0.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.apache.velocity:velocity:1.7" />
+          <element id="library" level="project" name="Gradle: org.apache.velocity:velocity-tools:2.0" />
+          <element id="library" level="project" name="Gradle: org.anarres.gradle:gradle-velocity-plugin:1.0.0" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jdbc:4.0.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: commons-dbcp:commons-dbcp:1.4" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-test:4.0.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.testng:testng:6.8.8" />
+          <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.1.3" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.7" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.1.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.1.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.1.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.hamcrest:hamcrest-core:1.3" />
+          <element id="library" level="project" name="Gradle: commons-collections:commons-collections:3.2.1" />
+          <element id="library" level="project" name="Gradle: commons-digester:commons-digester:1.8" />
+          <element id="library" level="project" name="Gradle: commons-chain:commons-chain:1.1" />
+          <element id="library" level="project" name="Gradle: commons-validator:commons-validator:1.3.1" />
+          <element id="library" level="project" name="Gradle: dom4j:dom4j:1.1" />
+          <element id="library" level="project" name="Gradle: oro:oro:2.0.8" />
+          <element id="library" level="project" name="Gradle: sslext:sslext:1.2-0" />
+          <element id="library" level="project" name="Gradle: org.apache.struts:struts-core:1.3.8" />
+          <element id="library" level="project" name="Gradle: org.apache.struts:struts-taglib:1.3.8" />
+          <element id="library" level="project" name="Gradle: org.apache.struts:struts-tiles:1.3.8" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-tx:4.0.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: commons-pool:commons-pool:1.5.4" />
+          <element id="library" level="project" name="Gradle: org.beanshell:bsh:2.0b4" />
+          <element id="library" level="project" name="Gradle: com.beust:jcommander:1.27" />
+          <element id="library" level="project" name="Gradle: antlr:antlr:2.7.2" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.1.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.1.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.1.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.5.3/c37875ff66127d93e5f672708cb2dcc14c8232ab/jackson-databind-2.5.3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.easymock/easymock/3.4/9fdeea183a399f25c2469497612cad131e920fa3/easymock-3.4.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.mockito/mockito-all/1.9.5/79a8984096fc6591c1e3690e07d41be506356fa5/mockito-all-1.9.5.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.4/commons-lang-2.4.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.5.0/a2a55a3375bc1cef830ca426d68d2ea22961190e/jackson-annotations-2.5.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.5.3/a8b8a6dfc8a17890e4c7ff8aed810763d265b68b/jackson-core-2.5.3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.2/3fb533efdaa50a768c394aa4624144cf8df17845/objenesis-2.2.jar" />
+          <element id="file-copy" path="$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/spring-mvc-gradle-mybatis-demo/exploded/spring-mvc-gradle-mybatis-demo.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>

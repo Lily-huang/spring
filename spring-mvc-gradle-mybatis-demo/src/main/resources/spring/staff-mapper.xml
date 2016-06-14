@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "
+        http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="domain.Staff">
+    <resultMap id="StaffMap" type="Staff">
+        <result property="name" column="staff_name" jdbcType="VARCHAR"/>
+        <result property="staffNo" column="staff_no" jdbcType="VARCHAR"/>
+        <result property="age" column="age" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <select id="getStaffByNo" parameterType="String" resultMap="StaffMap" fetchSize="1">
+        SELECT staff_name,staff_no,age
+        FROM test.staff
+        WHERE staff_no = #{staffNo}
+    </select>
+
+    <insert id="insert" parameterType="Staff">
+        insert into test.staff(staff_name,staff_no,age) values (#{name},#{staffNo},#{age})
+    </insert>
+
+</mapper>
