@@ -1,0 +1,3 @@
+web访问地址:localhost:8181/query/2345(获取数据源为spring提供接口)
+接口配置在application.yml中
+接口访问返回json,需要格式化后再输出
